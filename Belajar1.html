@@ -5,7 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Belajar HTML</title>
 </head>
-<body>
+<style>
+    .bg{
+        background-color: rgb(226, 226, 226);
+    }
+    body{
+        margin: auto;
+    }
+    h1{
+        text-align: center;
+        color: rgb(75, 73, 73);
+        font-family: sans-serif;
+    }
+    h2{
+        font-family: sans-serif;
+    }
+    p{
+        text-align: justify;
+        font-size: large;
+        font-family: sans-serif;
+    }
+    .bg-code{
+        color: rgb(3, 212, 69);
+        background-color: rgb(0, 0, 0);
+    }
+</style>
+<body class="bg">
     <h1>Tentang HTML</h1>
     <p>Halo ini adalah halaman pertama saya dalam belajar html. HTML (HyperText Markup Language) merupakan bahasa pemrograman yang digunakan untuk membuat struktur dan konten halaman web.</p>
     <p>HTML terdiri dari tag-tag yang
@@ -17,7 +42,7 @@
     <p>Struktur dasar HTML terdiri dari tag <code>&lt;!DOCTYPE html&gt;</code>, <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, dan <code>&lt;body&gt;</code>.</p>
     <p>Tag <code>&lt;!DOCTYPE html&gt;</code> digunakan untuk menentukan versi HTML yang digunakan. Tag <code>&lt;html&gt;</code> digunakan untuk membungkus seluruh elemen HTML. Tag <code>&lt;head&gt;</code> digunakan untuk menyimpan informasi tentang dokumen HTML. Tag <code>&lt;body&gt;</code> digunakan untuk menyimpan konten yang akan ditampilkan di halaman web.</p>
     <p>Berikut Contohnya 
-        <pre>
+        <div class="bg-code"><pre>
             <code>
                 &lt;!DOCTYPE html&gt;
                 &lt;html&gt;
@@ -31,7 +56,7 @@
                     &lt;/body&gt;
                 &lt;/html&gt;
             </code>
-        </pre>
+        </pre></div>
     </p>
 
     <h2>span dan div</h2>
@@ -39,7 +64,7 @@
         Selain tag pembuka dan tag penutup, terdapat juga tag yang tidak memerlukan tag penutup, yaitu tag <code>&lt;span&gt;</code> dan <code>&lt;div&gt;</code>. Tag <code>&lt;span&gt;</code> digunakan untuk memberikan gaya pada sebagian teks, sedangkan tag <code>&lt;div&gt;</code> digunakan untuk membungkus beberapa elemen HTML.
     </p>
     <p>Berikut contoh dari span dan div
-        <pre>
+        <pre class="bg-code">
             <code>
                 &lt;p&gt;Ini adalah contoh teks &lt;span style="color: red;"&gt;span&lt;/span&gt;&lt;/p&gt;
                 &lt;div style="background-color: lightblue;"&gt;
