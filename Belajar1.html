@@ -11,6 +11,10 @@
     }
     body{
         margin: auto;
+        width: 50%;
+        padding: 10px;
+        background-color: rgb(226, 226, 226);
+
     }
     h1{
         text-align: center;
@@ -26,11 +30,21 @@
         font-family: sans-serif;
     }
     .bg-code{
-        color: rgb(3, 212, 69);
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 5px;
+
     }
 </style>
 <body class="bg">
+    <h2>Login</h2>
+    <form action="/login" method="post">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Login">
+    </form>
     <h1>Tentang HTML</h1>
     <p>Halo ini adalah halaman pertama saya dalam belajar html. HTML (HyperText Markup Language) merupakan bahasa pemrograman yang digunakan untuk membuat struktur dan konten halaman web.</p>
     <p>HTML terdiri dari tag-tag yang
@@ -80,5 +94,38 @@
     <p>
         Element <code>&lt;hr&gt;</code> digunakan untuk membuat garis horizontal. Element <code>&lt;br&gt;</code> digunakan untuk memberikan jarak satu baris. Element <code>&lt;sup&gt;</code> digunakan untuk membuat teks menjadi superscript. Element <code>&lt;sub&gt;</code> digunakan untuk membuat teks menjadi subscript.
     </p>
+    <h2>Entity code</h2>
+    <p>
+        Entity code adalah kode yang digunakan untuk menampilkan karakter khusus yang tidak bisa ditampilkan dengan tag HTML biasa. Contoh entity code adalah <code>&amp;lt;</code> untuk menampilkan karakter <, <code>&amp;gt;</code> untuk menampilkan karakter >, dan <code>&amp;amp;</code> untuk menampilkan karakter &.
+        Berikut ini contoh entity code lainnya :
+        <pre class="bg-code">
+            <code>
+                &lt;p&gt;Contoh entity code : &amp;copy; &amp;reg; &amp;trade;&lt;/p&gt;
+            </code>
+        </pre>
+        <p>Hasilnya menjadi -> Contoh entity code : &copy; &reg; &trade;</p>
+    </p>
+    <h2>Semantic Markup </h2>
+    <p>
+        Semantic markup adalah penggunaan tag HTML sesuai dengan fungsinya. Dengan menggunakan semantic markup, kita bisa membuat struktur halaman web yang lebih mudah dimengerti oleh mesin pencari dan pengguna. Beberapa tag HTML yang termasuk dalam semantic markup adalah <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;aside&gt;</code>, dan <code>&lt;footer&gt;</code>.
+
+        Berikut merupakan beberapa contoh semantic markup :
+        <ol>
+            <li>Tag <code>&lt;header&gt;</code> digunakan untuk membuat header halaman web.</li>
+            <li>Tag <code>&lt;nav&gt;</code> digunakan untuk membuat navigasi halaman web.</li>
+            <li>Tag <code>&lt;main&gt;</code> digunakan untuk membuat konten utama halaman web.</li>
+            <li>Tag <code>&lt;article&gt;</code> digunakan untuk membuat artikel.</li>
+            <li>Tag <code>&lt;section&gt;</code> digunakan untuk membuat bagian dari halaman web.</li>
+            <li>Tag <code>&lt;aside&gt;</code> digunakan untuk membuat konten tambahan.</li>
+            <li>Tag <code>&lt;footer&gt;</code> digunakan untuk membuat footer halaman web.</li>
+            <li>Tag <code>&lt;figure&gt;</code> digunakan untuk membuat gambar atau ilustrasi.</li>
+            <li>Tag <code>&lt;figcaption&gt;</code> digunakan untuk memberikan keterangan pada gambar atau ilustrasi.</li>
+            <li>Tag <code>&lt;time&gt;</code> digunakan untuk menampilkan waktu atau tanggal.</li>
+            <li>dan lain-lain </li>
+        </ol>
+    </p>
+
+    <h2>Membuat Tabel</h2>
+    <p>Tabel dapat dilihat pada <a href="/Belajar2_Tabel.html">Link Ini</a></p>
 </body>
 </html>
