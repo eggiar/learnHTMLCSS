@@ -6,14 +6,22 @@
     <title>Formulir Tes</title>
 </head>
 <body>
-    <h1>Di sini mencoba Formulir</h1>
-    <form action="#" method="post">
-        <input type="text">
-        <input type="number">
-        <input type="email">
-        <input type="password">
-        <input type="color">
-        <input type="checkbox">
-    </form>
+    <h1>Login</h1>
+    <table>
+        <form action="/login" method="get">
+            <tr>
+                <td><label for="username">Username:</label></td>
+                <td><input type="text" id="username" name="username"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Login"></td>
+            </tr>
+        </form>
+    </table>
 </body>
 </html>

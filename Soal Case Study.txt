@@ -1,0 +1,43 @@
+# Case Study: Halaman Profil Pengguna
+
+## Deskripsi
+Buatlah halaman profil pengguna yang menampilkan informasi lengkap tentang seorang pengguna. Halaman ini harus memiliki struktur yang rapi dan menggunakan berbagai elemen HTML untuk menyajikan data dengan baik.
+
+## Persyaratan
+
+1. **Header:**z
+   - Judul halaman yang mencantumkan nama pengguna.
+   - Tagline atau deskripsi singkat tentang pengguna.
+
+2. **Navigasi:**
+   - Tautan ke bagian-bagian berikut di halaman:
+     - Tentang
+     - Aktivitas
+     - Galeri
+     - Kontak
+
+3. **Konten Utama:**
+   - **Bagian "Tentang":**
+     - Menampilkan foto profil pengguna (gunakan URL gambar placeholder).
+     - Deskripsi singkat tentang pengguna, termasuk informasi seperti usia, lokasi, dan minat.
+   - **Bagian "Aktivitas":**
+     - Daftar aktivitas terbaru pengguna (gunakan elemen `<ul>` dan `<li>`).
+     - Setiap aktivitas harus mencakup tanggal dan deskripsi singkat.
+   - **Bagian "Galeri":**
+     - Menampilkan beberapa gambar yang diunggah oleh pengguna (gunakan URL gambar placeholder).
+     - Setiap gambar harus memiliki deskripsi di bawahnya.
+   - **Bagian "Kontak":**
+     - Menampilkan informasi kontak pengguna, termasuk email dan nomor telepon.
+     - Tambahkan formulir sederhana untuk mengirim pesan kepada pengguna dengan elemen berikut:
+       - Nama (input teks)
+       - Email (input email)
+       - Pesan (textarea)
+       - Tombol Kirim
+
+4. **Footer:**
+   - Menampilkan informasi hak cipta dan tautan ke kebijakan privasi.
+
+5. **Styling:**
+   - Gunakan elemen HTML semantik untuk struktur yang lebih baik.
+   - Pastikan untuk menambahkan komentar di dalam kode untuk menjelaskan setiap bagian.
+   - Anda dapat menambahkan gaya CSS sederhana di dalam tag `<style>` di bagian `<head>` untuk meningkatkan tampilan halaman.

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Profil Pengguna</title>
+</head>
+<body>
+    <header>
+        <h1>Halo Eggi, Selamat datang di halaman profil pengguna</h1>
+        <p>Eggi adalah seseorang yang sedang belajar pemrograman web. Eggi memiliki hobi bermain game dan menonton film. Eggi juga memiliki akun di beberapa platform media sosial.
+        </p>
+    </header>
+    <nav>
+        <a href="#tentang">Tentang</a>
+        <a href="#aktivitas">Aktivitas</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+    <main>
+        <section id="tentang">
+            <h2 >Tentang</h2>
+            <img src="https://i.pinimg.com/236x/0f/40/40/0f4040e8bf594e2d669c17f4b34ffdf3.jpg" alt="">
+            <p>Nama: Eggi</p>
+            <p>Umur: 20 tahun</p>
+            <p>Lokasi : Bumi</p>
+            <p>Minat    : Membaca</p>
+        </section>
+        <section id="aktivitas">
+            <h2 >Aktivitas</h2>
+            <p>Eggi memiliki beberapa aktivitas yang sering dilakukan, diantaranya:</p>
+            <ul>
+                <li>Senin, 12 Agustus 2025 : Belajar pemrograman web 
+                    <p>
+                        Pada hari Senin ini saya Belajar HTML saja
+                    </p>
+                
+                </li>
+                <li>Selasa, 13 Agustus 2025 : Bermain game
+                    <p>
+                        Pada hari Selasa ini saya bermain game online
+                    </p>
+                </li>
+                <li>Rabu, 14 Agustus 2025 : Menonton film
+                    <p>
+                        Pada hari Rabu ini saya menonton film di bioskop
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section id="galeri">
+            <h2 >Galeri</h2>
+            <p>Berikut adalah beberapa foto dari Eggi:</p>
+            <table>
+                <tr>
+                    <td>
+                        <div>
+                            <img src="https://asset.kompas.com/crops/3aGzfOHAtOD7j97re2klRIsgtaQ=/0x0:0x0/750x500/data/photo/buku/65ae56d1b9074.jpg" alt="Jalan jalan" width="200">
+                        </div>
+                    </td>
+                    <td>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTW1YYHMnuwuRYJqrCxAAcT8eF837av2BCMA&s" alt="" width="200">
+                    </td>
+                    <td>
+                        <img src="https://akcdn.detik.net.id/visual/2021/03/18/ilustrasi-tidur-mendengkur-5_169.jpeg?w=1200" alt="tidur" width="200">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Foto ketika jalan-jalan
+                    </td>
+                    <td>
+                        Foto ketika makan
+                    </td>
+                    <td>
+                        Foto ketika tidur
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section id="kontak">
+            <h2>Kontak</h2>
+            <p>Hubungi Eggi melalui:</p>
+            <ul>
+                <li>Instagram: @eggi</li>
+                <li>Twitter: @eggi</li>
+                <li>Facebook: Eggi</li>
+            </ul>
+
+            <form action="pesan" method="post">
+                <div>
+                    <label for="nama">Nama</label>
+                    <input type="text" name="nama" id="nama" placeholder="Masukkan nama">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Masukkan email">
+                </div>
+                <div>
+                    <label for="pesan">Pesan</label>
+                    <textarea name="pesan" id="pesan" cols="30" rows="10" placeholder="Masukkan pesan"></textarea>
+                </div>
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 Eggi . Belajar HTML</p>
+    </footer>
+</body>
+</html>
