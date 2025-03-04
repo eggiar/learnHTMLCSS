@@ -1,0 +1,123 @@
+/* main {
+  background-color: #ffffff;
+  font-family: sans-serif;
+  width: auto;
+  padding-top: 5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 1em;
+  margin: auto;
+} */
+h1 {
+  text-align: center;
+  /* font-weight: bold; */
+  color: brown;
+  font-size: 2em;
+  text-decoration: overline underline;
+}
+h2 {
+  text-align: left;
+  /* font-weight: 500; */
+  font-size: 1.5em;
+}
+p {
+  text-align: justify;
+  /* font-size: 12px; */
+  font-family: sans-serif;
+  line-height: 1.3em;
+}
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: max-content;
+}
+
+table td {
+  font-family: monospace;
+}
+
+th {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(26, 26, 175);
+}
+
+#nama-tabel {
+  text-align: center;
+  font-style: italic;
+}
+
+.penting {
+  background-color: yellow;
+  font-style: italic;
+}
+
+h2 + p {
+  text-align: justify;
+  font-size: 1em;
+}
+
+/* p:hover{
+    font-size: larger;
+} */
+table tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #666666;
+  color: white;
+  font-size: 1.5em;
+  cursor: pointer;
+  transform: translate(20px, 0px);
+}
+
+.container {
+  display: flex;
+  /* justify-content: left; */
+  /* align-items: center; */
+  background-color: #e7e7e7;
+  /* flex-direction: row; */
+  /* flex-grow: calc(2/3); */
+  /* align-content: start; */
+  /* align-content: flex-start; */
+}
+
+main .content {
+  flex: 2 1 800px;
+  background-color: rgb(255, 255, 255);
+  padding: 2em;
+}
+
+main .sidebar {
+  flex: 1 2 300px;
+  background-color: #e9e9e9;
+}
+
+.button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 1em;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  main .content {
+    order: 2;
+  }
+  main .sidebar {
+    order: 1;
+  }
+  
+}
