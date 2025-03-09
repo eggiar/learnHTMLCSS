@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid px-0">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Bootstrap/features.html">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              >Disabled</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <body>
+    <div class="container">
+      <h1>Halo ini mencoba Bootstrap</h1>
+      <div class="mb-3">
+        <label for="Nama" class="form-label">Nama</label>
+        <input type="text" class="form-control" id="Nama" />
+
+        <label for="Password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" title="Enter your password" placeholder="Enter your password" />
+
+        <label for="alamat" class="form-label">Alamat</label>
+        <input type="text" name="alamat" id="alamat" class="form-control" />
+
+        <label for="daftarKota" class="form-label">Pilih Kota</label>
+        <input
+          class="form-control"
+          list="datalistOptions"
+          id="daftarKota"
+          placeholder="Cari nama kota..."
+        />
+
+        <datalist id="datalistOptions">
+          <option value="Pasuruan"></option>
+          <option value="Probolinggo"></option>
+          <option value="Jember"></option>
+          <option value="Sidoarjo"></option>
+          <option value="Surabaya"></option>
+        </datalist>
+
+      </div>
+      <button type="button" class="btn btn-warning">Klik di sini</button>
+      <a
+        href="/Belajar_HTML/Belajar1.html"
+        class="btn btn-outline-primary btn-lg"
+        >Belajar1</a
+      >
+
+      <a href="#" class="btn btn-outline-secondary btn-lg position-relative"
+        >Notifikasi
+        <span
+          class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+          >25</span
+        ></a
+      >
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
+        tempora sunt sequi nobis labore minima quam odio natus dolorem, quasi
+        nihil nostrum similique? Dolorem explicabo at, provident dolorum minus
+        dolor!
+      </p>
+      <div
+        class="btn-group btn-group-sm"
+        role="group"
+        aria-label="Basic mixed styles example"
+      >
+        <button type="button" class="btn btn-info">Show</button>
+        <button type="button" class="btn btn-warning">Edit</button>
+        <button type="button" class="btn btn-danger">Delete</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col col-sm bg-primary">Nama</div>
+        <div class="col bg-warning-subtle">Alamat</div>
+        <div class="col bg-danger">Kota</div>
+      </div>
+      <div class="row">
+        <div class="col">Eggi</div>
+        <div class="col">Lumbang</div>
+        <div class="col">Pasuruan</div>
+      </div>
+      <div class="row">
+        <div class="col">Eggi aunur</div>
+        <div class="col">Lumbang 1</div>
+        <div class="col">Pasuruan 1</div>
+      </div>
+      <div class="row">
+        <div class="col">Eggi 2</div>
+        <div class="col">Lumbang 2</div>
+        <div class="col">Pasuruan 2</div>
+      </div>
+      <div class="row">
+        <div class="col">Eggi 3</div>
+        <div class="col">Lumbang 3</div>
+        <div class="col">Pasuruan 3</div>
+      </div>
+    </div>
+    <div class="row p-5">
+      <div class="col-md-6 col-xl-3 bg-warning p-3">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque id
+        earum dolores aut est, numquam eligendi iusto consequatur laudantium!
+        Natus soluta ratione facilis culpa iure quidem itaque doloribus velit
+        eos. Perferendis consequatur, possimus odio natus cupiditate soluta quia
+        iusto assumenda odit esse laboriosam architecto ut minima in
+        consequuntur? Voluptas eveniet quidem reiciendis voluptates sequi
+        commodi molestiae repellat sapiente iste est?
+      </div>
+      <div class="col-md-6 col-xl-3 bg-success">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque id
+        earum dolores aut est, numquam eligendi iusto consequatur laudantium!
+        Natus soluta ratione facilis culpa iure quidem itaque doloribus velit
+        eos. Perferendis consequatur, possimus odio natus cupiditate soluta quia
+        iusto assumenda odit esse laboriosam architecto ut minima in
+        consequuntur? Voluptas eveniet quidem reiciendis voluptates sequi
+        commodi molestiae repellat sapiente iste est?
+      </div>
+      <div class="col-md-6 col-xl-3 bg-info">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque id
+        earum dolores aut est, numquam eligendi iusto consequatur laudantium!
+        Natus soluta ratione facilis culpa iure quidem itaque doloribus velit
+        eos. Perferendis consequatur, possimus odio natus cupiditate soluta quia
+        iusto assumenda odit esse laboriosam architecto ut minima in
+        consequuntur? Voluptas eveniet quidem reiciendis voluptates sequi
+        commodi molestiae repellat sapiente iste est?
+      </div>
+      <div class="col-md-6 col-xl-3 bg-danger">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque id
+        earum dolores aut est, numquam eligendi iusto consequatur laudantium!
+        Natus soluta ratione facilis culpa iure quidem itaque doloribus velit
+        eos. Perferendis consequatur, possimus odio natus cupiditate soluta quia
+        iusto assumenda odit esse laboriosam architecto ut minima in
+        consequuntur? Voluptas eveniet quidem reiciendis voluptates sequi
+        commodi molestiae repellat sapiente iste est?
+      </div>
+    </div>
+
+    <div class="row m-auto">
+      <div class="col-md-6 col-xl-3">
+        <img
+          src="https://img.freepik.com/free-vector/driving-concept-illustration_114360-11043.jpg?t=st=1741076794~exp=1741080394~hmac=ef7c08a3e84afbc41ab2ca09e05dc8256c99dcbd41292b7d7ba5c8ac4c3ac610&w=740"
+          alt=""
+          class="img-fluid"
+        />
+      </div>
+      <div class="col-md-6 col-xl-3">
+        <img
+          src="https://img.freepik.com/free-vector/driving-concept-illustration_114360-11043.jpg?t=st=1741076794~exp=1741080394~hmac=ef7c08a3e84afbc41ab2ca09e05dc8256c99dcbd41292b7d7ba5c8ac4c3ac610&w=740"
+          alt=""
+          class="img-fluid"
+        />
+      </div>
+      <div class="col-md-6 col-xl-3">
+        <img
+          src="https://img.freepik.com/free-vector/driving-concept-illustration_114360-11043.jpg?t=st=1741076794~exp=1741080394~hmac=ef7c08a3e84afbc41ab2ca09e05dc8256c99dcbd41292b7d7ba5c8ac4c3ac610&w=740"
+          alt=""
+          class="img-fluid"
+        />
+      </div>
+      <div class="col-md-6 col-xl-3">
+        <img
+          src="https://img.freepik.com/free-vector/driving-concept-illustration_114360-11043.jpg?t=st=1741076794~exp=1741080394~hmac=ef7c08a3e84afbc41ab2ca09e05dc8256c99dcbd41292b7d7ba5c8ac4c3ac610&w=740"
+          alt=""
+          class="img-fluid"
+        />
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
